@@ -8,9 +8,8 @@ const Home = lazy(() => import('./pages/home'));
 function App() {
   return (
    <div>  
- <Routes>
+      <Routes>
         <Route path="/" element={<Home />} />
-        
       </Routes>
       </div>
   );

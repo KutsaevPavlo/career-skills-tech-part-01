@@ -4,7 +4,7 @@ import PropTypes from "prop-types";
 
 import Card from "components/Card/Card";
 const CardsList = ({ users }) => {
-  const { id, user, tweets, followers, avatar } = users;
+  // const { id, user, tweets, followers, avatar } = users;
   //   const location = useLocation();
   return (
     <div>
