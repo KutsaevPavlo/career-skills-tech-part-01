@@ -1,9 +1,16 @@
 .Wrapper {
    
+    padding-top: 20px;
     display: grid;
+    grid-template-columns: repeat(1, auto);
+    grid-auto-rows: auto;
+    gap: 50px;
+    -webkit-box-pack: center;
+    justify-content: end;
+}
   
    
-}
+
     
 .WrapperHome{
     display: flex;
