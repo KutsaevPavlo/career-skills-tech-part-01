@@ -8,7 +8,7 @@ const Card = ({ item }) => {
       <img className={css.Logo} src={avatar} alt={user} />
       <p>{tweets} tweets</p>
       <p>{followers} followers</p>
-      <button>FOLLOW</button>
+      <button className={css.BtnWrapper}>FOLLOW</button>
     </div>
   );
 };
