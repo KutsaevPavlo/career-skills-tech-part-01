@@ -13,11 +13,11 @@
 }
 
 .Logo {
-  margin-left: 20px;
-  margin-bottom: 136px;
+  margin-left: 40px;
+  
   align-self: flex-start;
   width: 300px;
-  height: 300px;
+  height: 250px;
 }
 
 .Box {

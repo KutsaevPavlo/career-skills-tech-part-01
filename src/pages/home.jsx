@@ -1,5 +1,5 @@
 import { useEffect, useState } from "react";
-// import css from "./Home.module.css";
+import css from "./home.module.css";
 import { getTweetUsers } from "services/api";
 
 import CardsList from "components/CardsList/CardsList";
@@ -13,8 +13,8 @@ const Home = () => {
   }, []);
 
   return (
-    <div>
-      <ul>{<CardsList users={users} />}</ul>
+    <div className={css.WrapperHome}>
+      <ul className={css.Wrapper}>{<CardsList users={users} />}</ul>
     </div>
   );
 };
